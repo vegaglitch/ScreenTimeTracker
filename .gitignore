@@ -1,0 +1,37 @@
+# Xcode build artifacts
+build/
+DerivedData/
+*.xcuserstate
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Personal data — never commit these
+sessions.json
+prefs.json
+sessions_*.json
+
+# Backup files
+Backup files/
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# CocoaPods
+Pods/
+
+# Crashlytics
+crashlytics-build.properties
+
+# Compiled binaries
+*.app
+*.ipa
+*.dSYM.zip
+*.dSYM
